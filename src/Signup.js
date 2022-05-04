@@ -31,6 +31,7 @@ export default function Signup() {
           onBlur={formik.handleBlur}
           placeholder="First Name"
           value={formik.values.firstName}
+          
         />
         {formik.touched.firstName && formik.errors.firstName ? <p>{formik.errors.firstName}</p> : null}
         <input 
